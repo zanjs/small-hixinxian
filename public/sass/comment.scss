@@ -1,0 +1,103 @@
+@charset "utf-8";
+/*雪怪首页style 2015年3月24日09:10:01*/
+@import "go/global";
+@import "go/common";
+
+$color-com:#9ecc3e;
+body{
+  background: #f2f2f2;
+}
+.comment-page{
+  background: #f2f2f2;
+  min-height: 200px;
+}
+.comment-head{
+  position: relative;
+  padding: 20px;
+  background: #FFF;
+  margin: 10px 0;
+  .thumb{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    overflow: hidden;
+    img{
+      max-width: 100%;
+    }
+  }
+  .info{
+    position: relative;
+    margin-left: 120px;
+    min-height: 80px;
+    padding: 10px;
+    line-height: 24px;
+    color: #333333;
+  }
+}
+.comment-main{
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  .text{
+    textarea{
+      width: 100%;
+      min-height: 80px;
+      border: 1px solid #d9d9d9;
+      text-indent: 10px;
+      padding: 10px 0;
+    }
+  }
+}
+.comment-item{
+  position: relative;
+  li{
+    float: left;
+    padding-bottom: 16px;
+    &:last-child{
+      float: right;
+      color: #ffb923;
+    }
+  }
+}
+.comment-cl{
+  position: relative;
+
+  i{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background: url("../images/icon/huangx2.png") no-repeat center center;
+    background-size: 50% 100%;
+    &.on{
+      background: url("../images/icon/huangx1.png") no-repeat center center;
+      background-size: 50% 100%;
+    }
+  }
+
+}
+.comment-footer{
+  padding: 20px;
+  .tp{
+    a{
+      color:$color-com ;
+    }
+  }
+  .btn-w{
+    padding: 20px 0;
+  }
+  .submit-btn{
+    display: block;
+    width: 100%;
+    color: $color-com;
+    border: 1px solid $color-com;
+    padding: 10px 0;
+    background-color: transparent;
+    -webkit-tap-highlight-color: $color-com;
+  }
+  .btn-touchstart{
+    background-color: #8cc020;
+    color: #FFF;
+  }
+}

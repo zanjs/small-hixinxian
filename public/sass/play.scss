@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*雪怪首页style 2015年3月24日09:10:01*/
+@import "go/global";
+@import "go/common";
+
+body{
+  background: #f2f2f2;
+}
+.play-head{
+  padding: 20px 10px;
+  background-color: #FFF;
+  margin-bottom: 2px;
+}
+.play-body{
+  background: #FFF;
+  a{
+    display: block;
+    -webkit-tap-highlight-color: rgba(0,0,0,0.3);
+  }
+}
+.play-dl{
+  position: relative;
+  display: table;
+  img{
+    max-width: 80%;
+  }
+  dd,dt{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  dd{
+
+  }
+}
+
+.play-back{
+  position: relative;
+  top: 10px;
+}
+.play-back-u{
+
+  li{
+    background-color: #FFF;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 1px;
+    strong{
+      color:#999999 ;
+      margin-right: 10px;
+      font-weight: 700;
+    }
+    span{
+      color: #666666;
+    }
+  }
+}

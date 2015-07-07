@@ -1,0 +1,405 @@
+@charset "utf-8";
+/*雪怪订单详细style 2015年3月24日09:10:01*/
+.x-wrap{
+    background-color: #fff;
+}
+.list_bd {
+    border-top:1px solid #e2e3de;
+    border-bottom:1px solid #e2e3de;
+    background-color:#FFF;
+    margin-top:10px;
+}
+/*送达时间*/
+.pay_delivery_time{
+    padding: 10px 0 15px 15px;
+    background: #FFF;
+    font-size: 14px;
+}
+.pay_delivery_time span{
+    color: #7f7c73;
+}
+/*送达时间 end*/
+/*订单详情-取消订单*/
+.order_cancel {
+    font-size:18px;
+    color:#463417;
+    text-align:center;
+    padding:30px 0;
+    color: #97bc4d;
+    background-color: #FFF;
+    border-bottom: 1px solid #e2e3de;
+}
+.order_lock {
+    background:url(../images/order_lock.png) no-repeat center 15px/46px 58px;
+    font-size:12px;
+    color:#463417;
+    text-align:center;
+    padding-top:75px;
+}
+.bp_more {
+    border-bottom:1px solid #e2e3de;
+    padding-bottom:10px
+}
+.check_goods_list {
+    padding:10px 0 0 15px;
+}
+.check_goods_list dt,.check_goods_list dd {
+    border-bottom:1px solid #e2e3de;
+}
+.check_goods_list dd:last-child {
+    border:none;
+}
+.check_goods_list h2 {
+    font-size:12px;
+    color:#444;
+    padding:0 15px 10px 0;
+}
+
+.check_goods_list .items {
+    padding:10px 40% 10px 0px;
+    font-size:14px;
+    position:relative
+}
+.check_goods_list .items h4 {
+    color:#555;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    width:100%;
+}
+.check_goods_list .items span {
+    position:absolute;
+    right:15px;
+    top:10px;
+}
+.check_goods_list .items span em {
+    color:#adadad;
+    padding-right:5px;
+}
+.check_goods_list .items span var {
+    width:70px;
+    display:inline-block;
+    text-align:right;
+}
+.check_goods_info {
+    padding:0 0 0 15px;
+}
+.check_goods_info li {
+    border-bottom:1px solid #e2e3de;
+    padding:10px 15px 0 0;
+}
+.check_goods_info li:last-child {
+    border:none;
+}
+.check_goods_info dl {
+    display:-webkit-box;
+    display:-ms-flexbox;
+}
+.check_goods_info dt {
+    font-size:14px;
+    color:#444;
+    padding:0 15px 10px 0;
+    -webkit-box-flex:1;
+    -moz-box-flex:1;
+}
+.check_goods_info dd {
+    position:relative
+}
+.check_goods_info dd span {
+    display:inline-block;
+    position:relative;
+    right:20px;
+}
+.check_goods_info dd input {
+    border:none;
+    font-size:14px;
+}
+.check_goods_info dd em {
+    color:#463417;
+    font-size:14px;
+}
+.check_goods_info dd a.right {
+    background:url(../images/icon/icon_arrow_right.png) no-repeat center center;
+    position:absolute;
+    top:-5px;
+    right:-8px;
+    height:100%;
+    width:30px;
+    background-size:20px 20px;
+}
+.check_goods_code {
+    padding:0 0 0 15px;
+}
+.check_goods_code li {
+    border:none;
+    padding:10px 15px 0 0;
+}
+.check_goods_code dl {
+    display:-webkit-box;
+    display:-ms-flexbox;
+}
+.check_goods_code dt {
+    font-size:14px;
+    color:#444;
+    padding:0 15px 10px 0;
+    -webkit-box-flex:1;
+    -moz-box-flex:1;
+}
+.check_goods_code dt input {
+    border:none;
+    font-size:14px;
+    display:block;
+    width:100%;
+}
+.check_goods_code dd {
+    margin-top:-5px;
+}
+.check_goods_code dd button {
+    border:1px solid #ff5757;
+    border-radius:3px;
+    background:#FFF;
+    padding:5px 15px;
+    color:#ff5757;
+    font-size:14px;
+}
+.pay_info {
+    padding:10px 0 15px 15px;
+    background: #FFF;
+    border-bottom:none
+}
+.pay_info li {
+    padding:5px 15px 0 0;
+    font-size:14px;
+    color:#463417;
+}
+.pay_info span {
+    display:inline-block;
+}
+.pay_info var {
+    text-align:right;
+    float:right
+}
+.goods_list {
+    padding:10px 0 0 15px;
+}
+.goods_list dt,.check_goods_list dd {
+    border-bottom:1px solid #e2e3de;
+}
+.goods_list dd:last-child {
+    border:none;
+}
+.goods_list h2 {
+    font-size:12px;
+    color:#463417;
+    padding:0 15px 10px 0;
+}
+.goods_list .items {
+    padding:3px 15px 0 0px;
+    font-size:12px;
+}
+.goods_list .items:last-child {
+    padding-bottom:10px;
+}
+.goods_list .items span {
+    color:#463417;
+}
+.goods_list .items var {
+    color:#463417;
+}
+.goods_list .items var.number {
+    color:#2e38ff;
+    text-decoration:underline
+}
+/*订单详情*/
+.order_step {
+    font-size:12px;
+    color:#463417;
+    text-align:center;
+    padding-top:25px;
+}
+.order_step .order_step0 {
+    background:url(../images/order_step.png) no-repeat center 0;
+    background-size:100%;
+    width:200px;
+    height:31px;
+    display:block;
+    margin:0 auto 10px
+}
+.order_step .order_step1 {
+    background:url(../images/order_step.png) no-repeat center -31px;
+    background-size:100%;
+    width:200px;
+    height:31px;
+    display:block;
+    margin:0 auto 10px
+}
+.order_step .order_step2 {
+    background:url(../images/order_step.png) no-repeat center -62px;
+    background-size:100%;
+    width:200px;
+    height:31px;
+    display:block;
+    margin:0 auto 10px
+}
+.order_step ul {
+    width:260px;
+    margin:0 auto;
+    display:table;
+}
+.order_step li {
+    display:table-cell;
+    width:33%;
+}
+.order_step_pay {
+    font-size:12px;
+    color:#463417;
+    text-align:center;
+    padding-top:25px;
+}
+.order_step_pay .order_step0 {
+    background:url(../images/order_step2.png) no-repeat center 0;
+    background-size:100%;
+    width:262px;
+    height:32px;
+    display:block;
+    margin:0 auto 10px
+}
+.order_step_pay .order_step1 {
+    background:url(../images/order_step2.png) no-repeat center -33px;
+    background-size:100%;
+    width:262px;
+    height:32px;
+    display:block;
+    margin:0 auto 10px
+}
+.order_step_pay .order_step2 {
+    background:url(../images/order_step2.png) no-repeat center -66px;
+    background-size:100%;
+    width:262px;
+    height:32px;
+    display:block;
+    margin:0 auto 10px
+}
+.order_step_pay .order_step3 {
+    background:url(../images/order_step2.png) no-repeat center -99px;
+    background-size:100%;
+    width:262px;
+    height:32px;
+    display:block;
+    margin:0 auto 10px
+}
+.order_step_pay ul {
+    width:310px;
+    margin:0 auto;
+    display:table;
+}
+.order_step_pay li {
+    display:table-cell;
+    width:25%;
+}
+
+/*footer*/
+.btn_pay_style {
+    height:50px;
+    max-width:640px;
+    width:94%;
+    margin:20px auto 0;
+    padding-bottom:20px;
+}
+.btn_pay_style button {
+    width:94%;
+    background:#ff5757;
+    height:44px;
+    line-height:44px;
+    text-align:center;
+    border:none;
+    color:#FFF;
+    font-size:16px;
+    border-radius:5px;
+    display:block;
+    margin:0 auto;
+}
+.btn_pay_style button.btn_cancle {
+    border:1px solid #B5B5B5;
+    width:60%;
+    height:44px;
+    background-color: #Fff;
+    line-height:44px;
+    text-align:center;
+    font-size:16px;
+    border-radius:5px;
+    display:block;
+    margin:0 auto 15px;
+    color:#85c18e;
+}
+address.address {
+    border-top:1px dashed #85c18e;
+    border-bottom:1px dashed #85c18e;
+    background-color: #FFF;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    position:relative;
+    margin-top:10px;
+}
+address.address .addrNewTips {
+    padding:42px 35px 44px 20px;
+    font-size:16px;
+    color:#666;
+    text-align:center;
+}
+address.address .addrNewTips a.add {
+    margin-top:-5px;
+    display:block;
+}
+address.address i.iconAddAddr {
+    background:url(../images/icon/icon_add_address.png) no-repeat;
+    width:20px;
+    height:20px;
+    background-size:100%;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:5px;
+    margin-top:-4px
+}
+address.address .pei_addr {
+    padding:15px 35px 15px 15px;
+    color:#463417;
+    font-size:14px;
+    width:100%;
+    display:block;
+    -webkit-box-flex:1;
+}
+address.address .pei_addr h3 {
+    color:#7f735a;
+    height:28px;
+    line-height:28px;
+    text-indent:-4px;
+    font-size:12px;
+    font-weight:normal;
+    margin-bottom:5px;
+}
+address.address i.iconAddr {
+    background:url(../images/icon/icon_header_addr.png) no-repeat 0 -1px;
+    width:24px;
+    height:24px;
+    background-size:100%;
+    display:inline-block;
+    vertical-align:middle
+}
+address.address .pei_addr span {
+    display:block;
+    margin-top:5px;
+    font-size:14px;
+}
+address.address .pei_addr span em {
+    padding-right:10px;
+}
+address.address .right {
+    background:url(../images/icon/icon_arrow_right.png) no-repeat center center;
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:100%;
+    width:50px;
+    background-size:20px 20px;
+}

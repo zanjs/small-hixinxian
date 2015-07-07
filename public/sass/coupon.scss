@@ -1,0 +1,151 @@
+@charset "utf-8";
+//2015年5月6日13:46:11
+@import "go/global";
+@import "go/common";
+
+$color:#8cb148;
+$bColor1:#3aa2cc;
+$bColor2:#9ccb47;
+.no-bg-img .no-bg-img-ds{
+  display: block;
+}
+.no-bg-img{
+  max-width: 640px;
+  margin: 0 auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  height: 0px;
+  overflow: hidden;
+}
+.coupon_head{
+  background: #e8e8e8;
+  padding: 10px;
+  position: relative;
+  .add-text-w{
+    position: relative;
+    margin-right: 90px;
+  }
+  .add-text{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    text-indent: 10px;
+    background: #FFF;
+  }
+  .add-btn{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    background: $color;
+    border: 1px solid $color;
+    padding: 0 20px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -15px;
+    border-radius: 5px;
+  }
+}
+
+.coupon-show{
+  background: #FFF;
+  padding: 0 10px;
+}
+.coupon-show-list{
+  color: #FFF;
+  padding: 12px 16px;
+  margin-top: 20px;
+  .box-link{
+    position: relative;
+    border-radius: 5px;
+    padding: 20px 0;
+  }
+  .con-r,.con-l{
+    position: absolute;
+    top: 20px;
+    width: 20px;
+    text-align: center;
+    word-wrap:break-word;
+    height: 100%;
+    vertical-align:middle;
+    padding: 0 5px;
+  }
+  .con-l{
+    left: 0;
+    padding-top: 15px;
+    line-height: 32px;
+  }
+  .con-r{
+    right: 0;
+  }
+  .day{
+    background-color: #FFF;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .con-c{
+    min-height: 100px;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    position: relative;
+  }
+  .man_ji{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #FFF;
+    font-size: 23px;
+    height: 57px;
+    line-height: 57px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    i{
+      font-style: normal;
+    }
+  }
+}
+//1
+.coupon-show-list-1{
+  background: url("../images/icon/coupon_bg1.png") no-repeat center center;
+  background-size: 100% 100%;
+  .box-link{
+    border: 1px solid #3AA2CC;
+  }
+  .day{
+    color: $bColor1;
+  }
+  .con-c{
+    border-left: 1px solid #3AA2CC;
+    border-right: 1px solid #3AA2CC;
+  }
+  .man_ji{
+    color: $bColor1;
+  }
+}
+//2
+.coupon-show-list-2{
+  background: url("../images/icon/coupon_bg2.png") no-repeat center center;
+  background-size: 100% 100%;
+  .box-link{
+    border: 1px solid #8EB941;
+  }
+  .day{
+    color: $bColor2;
+  }
+  .con-c{
+    border-left: 1px solid #8EB941;
+    border-right: 1px solid #8EB941;
+  }
+  .man_ji{
+    color: $bColor2;
+  }
+}

@@ -1,0 +1,101 @@
+@charset "utf-8";
+/*雪怪全部分类style 2015年3月24日09:10:01*/
+body{
+    background-color: #f0efed;
+}
+.shop_sort{
+    position: relative;
+    padding: 20px 15px 40px 15px;
+}
+/*sort*/
+.shop_sort .sort{
+    height: 56px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.shop_sort .sort_t{
+    font-size: 20px;
+    line-height: 56px;
+    background-color: #f0efed;
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+    z-index: 10;
+}
+.shop_sort_lan{
+    position: relative;
+    margin-bottom: 26px;
+}
+
+
+.icon_sort_1{
+    background: url("../images/icon/sort_all_1.png") no-repeat center center;
+}
+.icon_sort_2{
+    background: url("../images/icon/sort_all_2.png") no-repeat center center;
+}
+.icon_sort_3{
+    background: url("../images/icon/sort_all_3.png") no-repeat center center;
+}
+.icon_sort_4    {
+    background: url("../images/icon/sort_all_4.png") no-repeat center center;
+}
+.icon_sort_5{
+    background: url("../images/icon/sort_all_5.png") no-repeat center center;
+}
+.icon_sort_6{
+    background: url("../images/icon/sort_all_6.png") no-repeat center center;
+}
+.icon_sort_7{
+    background: url("../images/icon/sort_all_7.png") no-repeat center center;
+}
+.icon_sort_8{
+    background: url("../images/icon/sort_all_8.png") no-repeat center center;
+}
+.icon_sort_9{
+    background: url("../images/icon/sort_all_9.png") no-repeat center center;
+}
+.icon_sort_10{
+    background: url("../images/icon/sort_all_10.png") no-repeat center center;
+}
+.icon_sort{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+    margin-right: 20px;
+    background-size: 100% 100%;
+}
+.sort_ul{
+    border-left: 1px solid #d9dad4;
+    border-top: 1px solid #d9dad4;
+}
+.sort_ul li{
+    float: left;
+    width: 25%;
+    overflow: hidden;
+}
+.sort_ul li a{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid #d9dad4;
+    border-top: none;
+    border-left: none;
+    background-color: #ffffff;
+    white-space:nowrap;
+    font-size: 16px;
+    color: #797979;
+}
+.sort_ul li a:active{
+    background-color: #fefefe;
+}
+.sort_upload{
+    position: relative;
+    display: block;
+    height: 20px;
+    background: url("../images/icon/sort_upload.png") no-repeat center;
+}
+.sort_upload2{
+    background: url("../images/icon/sort_upload_2.png") no-repeat center;
+}

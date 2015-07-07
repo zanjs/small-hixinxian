@@ -1,0 +1,137 @@
+@charset "utf-8";
+/*雪怪全局style 2015年3月24日09:10:01*/
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select,img {
+    margin:0px;
+    padding:0px;
+}
+html{
+    -webkit-tap-highlight-color:transparent;
+}
+body{
+    max-device-width:640px;
+    -webkit-tap-highlight-color:transparent;
+}
+body,textarea,select,button,table {
+    font-size:16px;
+    line-height:1.25em;
+    font-family:"microsoft yahei",Verdana,Arial,Helvetica,sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight:normal
+}
+input {
+    font-size:16px;
+    font-family:"microsoft yahei",Verdana,Arial,Helvetica,sans-serif;
+    -webkit-appearance: none;
+}
+textarea{
+    -webkit-appearance: none;
+}
+input:focus{border:none;background:none;}
+body {
+    font-size:16px;
+    font-family:"microsoft yahei",Verdana,Arial,Helvetica,sans-serif;
+    -webkit-text-size-adjust:none;
+    color: #7f735a;
+}
+img,fieldset {
+    border:0;
+}
+ul,ol {
+    list-style:none;
+}
+blockquote,q {
+    quotes:none;
+}
+address,caption,cite,code,dfn,em,th,var {
+    font-weight:normal;
+    font-style:normal;
+}
+a {
+    color:#7f735a;
+    text-decoration:none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+    table-layout:fixed;
+}
+:focus {
+    outline:0;
+    -moz-outline-style:none;
+}
+p {
+    line-height:165%;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+.fyh {
+    font-family:"microsoft yahei",Verdana,Arial,Helvetica,sans-serif;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table
+}
+.clearfix:after{
+    clear:both
+}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+    -webkit-appearance:none !important;
+    margin:0;
+}
+input[type="number"] {
+    -moz-appearance:textfield;
+}
+#waitingMaskDiv {
+    position:absolute;
+    left:0px;
+    top:0px;
+    background:#000;
+    opacity:0;
+    z-index:999;
+}
+#waitingContents {
+    position:fixed;
+    left:0px;
+    background:url('../images/indicator.gif') no-repeat center center #000;
+    border-radius:5px;
+    z-index:1001;
+    width:50px;
+    height:50px;
+    opacity:0.95;
+    box-shadow:0px 0px 5px #000;
+}
+.hide{
+    display: none;
+}
+.waiting {
+    padding:20px 0;
+    text-align:center;
+    margin:0 auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-130px;
+    background:#000;
+    opacity:0.7;
+    color:#FFF;
+    margin-top:-30px;
+}
+/*load*/
+.x-first-load{
+    position: absolute;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    left: 50%;
+    margin-left: -90px;
+    top: 50%;
+    background: rgba(151,188,77, 0.9);
+    color: #ffffff;
+}

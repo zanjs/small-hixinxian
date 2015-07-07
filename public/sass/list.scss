@@ -1,0 +1,200 @@
+@charset "utf-8";
+/*雪怪list 列表style 2015年3月24日09:10:01*/
+@import "go/global";
+@import "go/common";
+body{
+    background-color: #f0efed;
+}
+.goods_list_box{
+    position: relative;
+    .title{
+        position: relative;
+        height: 20px;
+        line-height: 20px;
+        border-left: 2px solid #67b172;
+        margin: 15px;
+    }
+    .st{
+        position: relative;
+        background-color: #f0efed;
+        display: inline-block;
+        padding-right: 20px;
+        z-index: 10;
+        padding-left: 10px;
+    }
+}
+.x-push-goods {
+    background:#f0efed;
+    padding:5px 0 15px 15px;
+    h2 {
+        font-size:16px;
+        color:#7f735a;
+        height:32px;
+        line-height:32px;
+    }
+    p{
+        display:block;
+        text-indent:1em;
+        line-height:20px;
+        color:#7f735a;
+        height:20px;
+        margin-right:1em;
+        overflow:hidden;
+    }
+    ul {
+        width:100%;
+        display:table;
+        padding-bottom:15px;
+    }
+    .imgReBox {
+        position: relative;
+    }
+    li {
+        width:50%;
+        display:table-cell;
+        padding:0 15px 0 0;
+
+    }
+    i{
+        &.icon_plus_normal {
+            width:70px;
+            height:70px;
+            background: url(../images/icon/btn_plus_normal.png) no-repeat center center;
+            background-size:40px 40px;
+            border:none;
+            position:absolute;
+            right:0px;
+            bottom:0px;
+            opacity: 0.5;
+        }
+        &.checked {
+            width: 35px;
+            height: 35px;
+            background: url(../images/icon/icon_checkbox_checked.png) no-repeat center center;
+            background-size: 100%;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+    }
+    a {
+        font-size:12px;
+        border:1px solid #e5ded2;
+        border-radius:5px;
+        background:#FFF;
+        display:block;
+    }
+    img {
+        vertical-align:middle;
+        border-bottom: 1px solid #f0efea;
+    }
+    span {
+        display:block;
+        text-indent:1em;
+        line-height:20px;
+        color:#7f735a;
+        height:20px;
+        margin-right:1em;
+        padding-top:8px;
+        overflow:hidden;
+    }
+    var {
+        display:block;
+        text-indent:1em;
+        color:#ff5757;
+        padding-bottom:8px;
+    }
+}
+
+div.categoryMenu {
+    background:#fcfaf7;
+    height:46px;
+    overflow:hidden;
+    position:relative;
+    z-index: 100000;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    width:100%;
+    overflow-x:scroll;
+    overflow-y:auto;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;
+    -ms-scroll-chaining:chained;
+    -webkit-transform:translateZ(0);
+    &>div {
+        height:50px;
+        position:absolute;
+        left:0;
+        top:0;
+        /*overflow:hidden;
+        */width:auto;
+    }
+    a {
+        text-align:center;
+        padding:10px;
+        font-size:16px;
+        color:#d2c9b6;
+        display:inline-block;
+        float:left
+    }
+    a.on {
+        color:#97bc4d;
+    }
+    span {
+        background:-webkit-linear-gradient(right,rgba(255,255,255,1),rgba(255,255,255,0));
+        background:-moz-linear-gradient(right,rgba(255,255,255,1),rgba(255,255,255,0));
+        position:absolute;
+        right:0;
+        top:0;
+        height:40px;
+        width:60px;
+    }
+}
+/*jia*/
+.list_float_u{
+    width:100%;
+    display:block;
+    padding-bottom:15px;
+    li {
+        width:50%;
+        display:table-cell;
+        padding:0 15px 0 0;
+        position: relative;
+    }
+    a {
+        font-size:12px;
+        border:1px solid #e5ded2;
+        border-radius:5px;
+        background:#FFF;
+        display:block;
+    }
+    img {
+        vertical-align:middle;
+        border-bottom: 1px solid #f0efea;
+    }
+    span {
+        display:block;
+        text-indent:1em;
+        line-height:20px;
+        color:#7f735a;
+        height:20px;
+        margin-right:1em;
+        padding-top:8px;
+        overflow:hidden;
+    }
+    var {
+        display:block;
+        text-indent:1em;
+        color:#ff5757;
+        padding-bottom:8px;
+    }
+}
+div.bomLine{
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #97bc4d;
+    left: 0;
+    bottom: 12px;
+}
