@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "public/js/libs/tpl/doT/examples/express/package.json",
+        "public/js/libs/tpl/doT/package.json"
+      ]
+    }
+  }
+}
