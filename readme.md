@@ -1,4 +1,7 @@
 ## 微信开发 ## 
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/zanjs/small-hixinxian.svg)](https://greenkeeper.io/)
+
 7/3/2015 5:32:55 PM 
 
 
